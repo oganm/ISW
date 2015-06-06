@@ -71,15 +71,58 @@ Syntax
 * This point matters
 * This one matters more
     - This one matters less
-1. First!
 ```
 
 * This point matters
 * This one matters more
-    - This one matters less
+    - This one matters lesll
 
-1. First!
+Rmarkdown
+====================================
+incremental: true
 
-Syntax
-====================================================   
+![](rmark.png)
+
+```{r, eval=F}
+print('hello')
+plot(1:4)
+```
+
+***
+
+```{r, echo=F}
+print('hello')
+plot(1:4)
+```
+
+What to use it with?
+==============================
+* Pandoc
+ * Render into html, pdf, word, latex...
+ * Command line
+* Rstudio
+ * RMarkdown with R code
+ * Minimal effort in rendering
+* Remarkable
+ ![](remark.png)
+ 
+Can you use this?
+========================================================
+type: prompt
+incremental: true
+
+
+* Manuscript writing
+* Quick note taking
+* Reproducible research
+* Oh no I don't have enough time to prepare this lecture! If only I had something to deal with slide formatting :(
+
+
+I'm done
+=======================
+* Markdown is a low-learning-curve markup language for creation of documents
+* Enables users to focus on the content rather than its appearence
+* Closes the gap between data and the text
+
+
 
